@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+body{
+    background-color: #1e1d2b;
+}
+h1,h3,h6{
+    color:#ff702a ;
+}
+
+p,h2{
+    color: white;
+}
+
+h5,h4{
+    color:black;
+}
+
+button{
+    color: white;
+    background-color:#ff702a ;
+    width: 200px;
+}
+
+/*primera hoja*/
+.contenedor{
+    display: grid;
+    grid-template: 100%/repeat(2,50%);
+    justify-content: center;
+}
+
+/*segunda hoja*/
+.container{
+    display: grid;
+    grid-template: 100%/repeat(2,50%);
+}
+
+/*imagen home y about*/
+.home{
+    width: 400px;
+}
+
+/*tercera hoja*/
+.dialogo{
+    text-align: center;
+}
+.menu{
+    display: grid;
+    grid-template: 100%/repeat(3,33.3%);
+    gap: 20px;
+}
+.comidas{
+    background-color: #ffefe8;
+    text-align: center;
+    border: 2px double black;
+
+}
+.cajitas{
+    text-align: center;
+}
+/*imagen food 1,2,3*/
+.tres{
+    width: 150px;
+}
+
+
+.servicios{
+    display: grid;
+    grid-template: 100%/repeat(3,33.3%);
+    text-align: center;
+}
+/*imagenes s1 s2 s3*/
+.cuatro{
+    width: 100px;
+}
+/*ultima hoja*/
+.blanco{
+    background-color:#ffefe8 ;
+    text-align: center;
+    padding: 30px;
+}
+
+.pagina{
+    display: grid;
+    grid-template:100%/repeat(4,25%)
+}
+
